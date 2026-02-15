@@ -16,9 +16,6 @@ async function dbconnection() {
 }
 dbconnection();
 
-
-const Task= require("./models/Task")
-
 ////sec step //POST Route
 app.post('/api/tasks', async (req, res) => {
     try {
